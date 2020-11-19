@@ -11,6 +11,10 @@ html {
   font-size: 62.5%;
 }
 
+.logo{
+  width: 13.1rem;
+}
+
 .main-heading {
   font-family: 'Yeseva One', cursive;
   font-size: 10.6rem;
@@ -31,4 +35,13 @@ html {
 .description {
   font-size: 1.6rem;
   color: $sec-text-color;
+}
+
+#main-btn {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 30px;
+  color: white !important;
+  border-radius: 20px 0 20px 0;
+  background-image: $pri-gradient;
 }

@@ -6,6 +6,8 @@ const Activities = () => {
     return (
         <div>
             <h1>this is activities</h1>
+
+            <p>Lorem ipsum dolor sit amet.</p>
             <Activity></Activity>
         </div>
     );

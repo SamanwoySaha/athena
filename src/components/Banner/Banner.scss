@@ -1,0 +1,17 @@
+#banner {
+    position: relative;
+    padding-top: 5rem;
+    margin-bottom: 70px;
+
+    .top-left{
+        position: absolute;
+        top: -53rem;
+        left: -40rem;
+    }
+
+    .top-right{
+        position: absolute;
+        top: -73rem;
+        right: -65rem;
+    }
+}

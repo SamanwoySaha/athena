@@ -5,6 +5,7 @@
     width: 100%;
     top: 10px;
     left: 0;
+    z-index: 9999;
 
     .nav-link {
         color: $sec-text-color !important;
@@ -31,4 +32,10 @@
 #main-btn.nav-link {
     width: 174px !important;
     margin: 0 auto !important;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        background-color: #fff;
+    }
 }

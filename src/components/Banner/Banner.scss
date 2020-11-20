@@ -1,0 +1,24 @@
+#banner {
+    position: relative;
+    padding-top: 15rem;
+    margin-bottom: 70px;
+    overflow: hidden;
+
+    .top-left{
+        position: absolute;
+        top: -43rem;
+        left: -40rem;
+    }
+
+    .top-right{
+        position: absolute;
+        top: -73rem;
+        right: -65rem;
+    }
+
+    .top-dot{
+        position: absolute;
+        top: -0rem;
+        right: -65rem;
+    }
+}

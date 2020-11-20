@@ -1,0 +1,16 @@
+.activity{
+    padding: 4rem;
+    border-radius: 3rem 0 3rem 0;
+    transition: all linear 0.4s;
+
+    &:hover {
+        box-shadow: .2rem .2rem 1.5rem rgb(218, 216, 216);
+        img{
+            transform: rotate(360deg);
+        }
+    }
+    img{
+        transform: rotate(0deg);
+        transition: all linear 0.4s 
+    }
+}

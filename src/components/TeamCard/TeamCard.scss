@@ -1,0 +1,54 @@
+@import '../../styles/style.scss';
+
+.team-card{
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: .2rem .2rem 1.5rem rgb(233, 233, 233);
+    padding: 2rem 0 3rem;
+    transform: scale(0.9);
+    overflow: hidden;
+    border: 2px solid white;
+    transition: all linear 0.4s;
+    background-color: #fff;
+
+    li{
+        margin: .7rem 0;
+        color: #0F0F0F;
+    }
+
+    .price{
+        font-weight: 700;
+        font-size: 50px;
+        color: $pri-text-color !important;
+    }
+
+    .line {
+        border-bottom: .2rem solid #4FD1CB;
+        width: 20rem;
+        margin: 1rem auto;
+        transition: all linear 0.4s;
+
+        &:hover {
+            width: 0;
+        }
+    }
+
+    #main-btn{
+        margin-top: 1rem;
+        position: relative;
+        top: 8rem;
+        transition: all linear 0.4s;
+    }
+
+    &:hover {
+        border: 2px solid #4FD1CB;
+
+        #main-btn{
+            top: 0;
+        }
+
+        .line{
+            width: 0;
+        }
+    }
+}

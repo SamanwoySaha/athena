@@ -1,0 +1,34 @@
+@import '../../styles/style.scss';
+
+.navbar {  
+    position: absolute !important;
+    width: 100%;
+    top: 10px;
+    left: 0;
+
+    .nav-link {
+        color: $sec-text-color !important;
+        font-size: 1.6rem;
+        font-weight: 500 !important;
+        transition: all linear 0.4s;
+        padding: 10px 0; 
+        margin: 0 10px !important;
+        text-align: center;
+        cursor: pointer !important;
+
+        .active {
+            font-weight: 700 !important;
+            color: $pri-text-color !important;
+        }
+
+        &:hover {
+            font-weight: 700 !important;
+            color: $pri-text-color !important;
+        }
+    }
+}
+
+#main-btn.nav-link {
+    width: 174px !important;
+    margin: 0 auto !important;
+}

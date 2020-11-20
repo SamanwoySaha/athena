@@ -1,9 +1,9 @@
 import React from 'react';
 import AchievementCard from '../AchievementCard/AchievementCard';
-import smily from '../../images/happy@2x.png'
-import trophy from '../../images/marketing@2x.png'
-import star from '../../images/surface1@2x.png'
-import rocket from '../../images/transportation@2x.png'
+import smily from '../../images/happy@2x.png';
+import trophy from '../../images/marketing@2x.png';
+import star from '../../images/surface1@2x.png';
+import rocket from '../../images/transportation@2x.png';
 import './Achievement.scss';
 
 const Achievement = () => {

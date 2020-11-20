@@ -1,0 +1,33 @@
+@import '../../styles/style.scss';
+
+#contact{
+    margin-bottom: 5rem;
+    .input-field {
+        width: 60rem;
+        height: 6rem;
+        background-color: #fff;
+        box-shadow: .2rem .2rem 1.5rem rgb(189, 189, 189);
+        margin: 1rem auto 0;
+
+        input{
+            border: none;
+            width: 45rem;
+            height: 6rem;
+
+            &::placeholder{
+                font-size: 14px !important;
+                padding-left: 2rem !important;
+            }
+        }
+
+        button{
+            width: 15rem;
+            height: 4.5rem;
+            background-image: $pri-gradient;
+            border: none;
+            margin-right: 1rem;
+            color: white;
+            font-size: 14px;
+        }
+    }
+}

@@ -22,7 +22,7 @@ const Activities = () => {
         }
     ];
     return (
-        <div className="container">
+        <div id="about" className="container text-center">
             <h1 className= "heading">What we do</h1>
             <p className= "description">Our main procuss is to make the user Experiance very <br/> simple and easy .simplicity is our strength</p>
                 <div className="row">

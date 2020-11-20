@@ -1,7 +1,8 @@
 @import '../../styles/style.scss';
 
 .navbar {  
-    position: absolute;
+    position: absolute !important;
+    width: 100%;
     top: 10px;
     left: 0;
 

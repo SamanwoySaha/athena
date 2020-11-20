@@ -1,0 +1,50 @@
+#footer {
+    margin-bottom: 50px;
+
+    ul{
+        margin-bottom: 2rem;
+    }
+
+    li a{
+        color: #464646 !important;
+        transition: all linear 0.4s;
+        
+        &:hover{
+            text-decoration: none;
+            color: #222;
+            font-weight: 500;
+        }
+    }
+    .icon-container{
+        position: relative;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+        background-color: #575757;
+        text-align: center !important;
+        margin-right: 1rem;
+        color: white;
+        transition: all linear 0.4s;
+        cursor: pointer;
+
+        &:hover{
+            background-color: #2AF598;
+        }
+
+        .icon{
+            font-size: 12px !important;
+            line-height: 3rem !important;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #footer{
+        text-align: center;
+    }
+    
+    li.social-links{
+        margin-left: 50% !important;    
+        transform: translateX(-40%);
+    }
+}
